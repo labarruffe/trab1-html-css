@@ -3,11 +3,11 @@ body {
 }
 
 table {
-
 }
 
 img {
-	width:200px;
+	max-width: 100%;
+	display: block;
 }
 
 th{
@@ -16,10 +16,30 @@ th{
 
 td:first-child {
 	text-align: center;
-	background-color: white;
+}
+
+td {
+	color: white;
+}
+
+.texto_2 {
+	text-align: center;
+}
+
+.imagem_diferente {
+	size: 50%;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: gray;
 }
 
 .telefone_row {
-	text-align: center;
+	color: black;
 	background-color: white;
+	text-align: center;
 }
