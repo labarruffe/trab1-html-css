@@ -27,7 +27,10 @@ td {
 }
 
 .imagem_diferente {
-	size: 50%;
+	height: 25%;
+	width: 65%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 a:link {
