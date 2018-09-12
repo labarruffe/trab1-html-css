@@ -1,21 +1,28 @@
+* {
+	letter-spacing: 0.4px;
+	line-height: 130%;
+}
+
 body {
 	background-color: #89cff0;
 }
 
 table  {
-   height: 100px;
+	border: 7px solid #89cff0;
 	width: 100%;
-	margin: 0; padding: 0;
 	border-collapse: collapse;
+}
+
+
+
+th{
+	border: 4px solid #89cff0;
+	background-color: white;
 }
 
 img {
 	max-width: 100%;
 	display: block;
-}
-
-th{
-	background-color: white;
 }
 
 .empty_row {
@@ -24,7 +31,6 @@ th{
 }
 
 td:first-child {
-	line-height: 10px;
 	text-align: center;
 	background-color: white;
 }
@@ -34,24 +40,25 @@ td:first-child {
 }
 
 td {
-	border: 2px solid black;
+	width: 14%;
+	border: 5px solid #89cff0;
 	color: white;
 }
 
 .texto_1 {
-	vertical-align: top;
-	line-height: 120%;
+	
 }
 
 .texto_2 {
 	text-align: center;
+	border-bottom-color: white;
 }
 
 .imagem_diferente {
-	height: 25%;
-	width: 65%;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	height: 20%;
+	width: 60%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 a:link {
@@ -63,14 +70,14 @@ a:visited {
 }
 
 .telefone_row {
-	border-top: 2px solid #89cff0;
-	border-left: 2px solid #89cff0;
-	border-bottom: 2px solid #89cff0;
-	padding-left: 270px;
+	border-right-color: white;
+	padding-left: 230px;
 	color: black;
 	background-color: white;
 }
 
 .white-cell {
+	border: 3px solid white;
+	border-right: none; 
 	background-color: white;	
 }
