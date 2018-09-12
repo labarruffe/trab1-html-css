@@ -3,6 +3,10 @@ body {
 }
 
 table  {
+   height: 100px;
+	width: 100%;
+	margin: 0; padding: 0;
+	border-collapse: collapse;
 }
 
 img {
@@ -12,6 +16,11 @@ img {
 
 th{
 	background-color: white;
+}
+
+.empty_row {
+	display: block;
+	margin-top: 5px;
 }
 
 td:first-child {
@@ -25,12 +34,15 @@ td:first-child {
 }
 
 td {
+	border: 2px solid black;
 	color: white;
 }
 
 .texto_1 {
-	padding: auto;
+	vertical-align: top;
+	line-height: 120%;
 }
+
 .texto_2 {
 	text-align: center;
 }

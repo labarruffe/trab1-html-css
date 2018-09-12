@@ -3,91 +3,120 @@
 <head>
 	<meta charset="utf-8">
 	<title>Exercício 2 - Cadastro de Usuários</title>
+	<link rel="stylesheet" type="text/css" href="style_pag_b.css">
 </head>
 <body>
 
-	<h4>Cadastro de novos usuários</h4>
+	<h3>Cadastro de Novos Usuários</h3>
+
+	<form>
 
 	<table> 
 
 		<tr>
-			<td>Dados Pessoais</td>
-			<td></td>
-			<td></td>
+			<td colspan="3" class="diferente">Dados Pessoais</td>
+			
 		</tr>
 
 		<tr>
 			<td>
-					Nome Completo:
-					<br>					
-					Endereço:
-					<br>
-					Cidade:
-					<br>
-					Estado:
-												
+				<label>Nome Completo:</label>
 			</td>
 
 			<td>
-				<form>
-					<input type="text" name="nome">
-					<br>
-					<input type="adress" name="endereco">
-					<br>
-					<input type="text" name="cidade">
-					<br>
-					<select name="estado">
+				<input class="form type="text" name="nome">
+
+			</td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label>Endereço:</label>
+			</td>
+
+			<td>
+				<input class="form" type="adress" name="endereco">
+			
+			</td>
+			<td></td>
+
+		</tr>
+
+		<tr>
+			<td><label>Cidade:</label></td>
+			<td><input class="form" type="text" name="cidade"></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td><label>Estado:</label></td>
+			<td>
+				<select name="estado">
 						<option value="RS" selected>Rio Grande do Sul</option>
 						<option value="PR">Paraná</option>
 						<option value="SC">Santa Catarina</option>
-					</select>
-
-				</form>
-
+				</select>
 			</td>
-
-			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-
-
+			<td></td>
 
 		</tr>
 
 		<tr>
-			<td>Dados do Sistema</td>
-			<td> </td>
-			<td> </td>
+			<td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" class="diferente">Dados do Sistema</td>
+			
+		</tr>
+
+		<tr>
+			<td><label>Nome de Usuário:</label></td>
+			<td><input class="form" type="text" name="username"></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td><label>Senha:</label></td>
+			<td><input class="form" type="password" name="senha"></td>
+			<td></td>
 		</tr>
 
 		<tr>
 			<td>
 
-					Nome de Usuário:
-					<br>					
-					Senha:
-					<br>
-					Confirme a senha:
+				<label>Confirme a senha:</label>
+				
+			</td>
+
+			<td>
+				<input class="form" type="password" name="senha2">
+				
+			</td>
+			<td></td>
+
+			<tr>
+				<td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			</tr>
+
+			</table>
+
+			<table>
+
+				<tr>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td><input id="submit" type="submit" name="Cadastro" value="Cadastrar o Usuário"></td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				</tr>
+
+			
+			
+			</table>
+
 	
-			</td>
 
-			<td>
-					<input type="text" name="username">
-					<br>
-					<input type="password" name="senha">
-					<br>
-					<input type="password" name="senha2">
-					<br>
-					<input type="submit" name="Cadastro" value="Cadastrar o Usuário">
-
-
-			</td>
-
-
-
-
-		</tr>
-
-
-	</table>
+	</form>
 
 </body>
 </html>
