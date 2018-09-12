@@ -8,7 +8,6 @@ body {
 }
 
 table  {
-	border: 7px solid #89cff0;
 	width: 100%;
 	border-collapse: collapse;
 }
@@ -31,6 +30,7 @@ img {
 }
 
 td:first-child {
+	border: 5px solid #89cff0;
 	text-align: center;
 	background-color: white;
 }
@@ -41,7 +41,7 @@ td:first-child {
 
 td {
 	width: 14%;
-	border: 5px solid #89cff0;
+	border: 1px solid #89cff0;
 	color: white;
 }
 
@@ -69,15 +69,21 @@ a:visited {
 	color: gray;
 }
 
+#other_row {
+	border-bottom-color: white;
+}
+
 .telefone_row {
-	border-right-color: white;
+	
 	padding-left: 230px;
 	color: black;
 	background-color: white;
 }
 
-.white-cell {
-	border: 3px solid white;
+#white-cell {
+	border-top: 2px solid white;
+	border-bottom: 1px solid white;
+	border-left: 2px solid white;
 	border-right: none; 
 	background-color: white;	
 }
