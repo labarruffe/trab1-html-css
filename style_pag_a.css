@@ -12,8 +12,6 @@ table  {
 	border-collapse: collapse;
 }
 
-
-
 th{
 	border: 4px solid #89cff0;
 	background-color: white;
@@ -25,8 +23,7 @@ img {
 }
 
 .empty_row {
-	display: block;
-	margin-top: 5px;
+	height: 10px;
 }
 
 td:first-child {
@@ -43,10 +40,6 @@ td {
 	width: 14%;
 	border: 1px solid #89cff0;
 	color: white;
-}
-
-.texto_1 {
-	
 }
 
 .texto_2 {
@@ -74,7 +67,6 @@ a:visited {
 }
 
 .telefone_row {
-	
 	padding-left: 230px;
 	color: black;
 	background-color: white;

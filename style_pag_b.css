@@ -1,47 +1,56 @@
 body {
-	background-color: lightgray;
+	background-color: #e6f0ff;
 }
 
 h3 {
 	margin-right: auto; 
 	margin-left: auto;
 	text-align: center;
-	color: blue;
+	color: #AA1217;
 	font-weight: bold;
 }
 
-.diferente {
-	background-color: lightblue;
+.subtitle_form {
+	background-color: #80b3ff;
 	font-weight: bolder;
 }
 
-.submit	{
-	text-align: right;
+.form {
+	width: 100%;
 }
-
-
 table {
 	margin-right: auto;
 	margin-left: auto;
-	width: 900px;
+	width: 65%;
 }
 
-
-
-
-.form	{
-	width: 100%;
-
+td:first-child {
+	width: 30%;
 }
 
-#submit	{
-	
-width:180px;
-
-
+tr input {
+	max-width: 43%;
+    border: 1px solid #80b3ff;
 }
 
+tr input[type="address"] {
+	max-width: 42.7%;
+}
 
 select {
-	text-align: left;
+    width: 25%;
+    border: 1px solid #80b3ff;
+    background-color: white;
+}
+
+tr input[type="submit"] {
+    border-radius: 3px;
+    background-color: white;
+	width:180px;
+	margin: auto;
+	display: block;
+}
+
+.empty_row {
+	height: 20px;
 }
