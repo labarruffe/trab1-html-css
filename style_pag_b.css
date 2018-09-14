@@ -15,9 +15,6 @@ h3 {
 	font-weight: bolder;
 }
 
-.form {
-	width: 100%;
-}
 table {
 	margin-right: auto;
 	margin-left: auto;
@@ -29,12 +26,9 @@ td:first-child {
 }
 
 tr input {
+	width: 100%;
 	max-width: 43%;
     border: 1px solid #80b3ff;
-}
-
-tr input[type="address"] {
-	max-width: 42.7%;
 }
 
 select {
